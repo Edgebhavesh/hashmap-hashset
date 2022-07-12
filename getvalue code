@@ -1,0 +1,9 @@
+
+     Set set = map.entrySet();
+    Iterator iter = set.iterator();
+
+    while (iter.hasNext()) {
+      Map.Entry entry = (Map.Entry) iter.next();
+      if((int)entry.getValue()%2!=0){
+          cnt++;
+      }
